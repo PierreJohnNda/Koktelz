@@ -66,7 +66,7 @@ const Home = () => {
                   alt="Featured recipe"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nos créations sucrés</h5>
+                  <h5 className="card-title">Nos créations sucrées</h5>
                   <p className="card-text">Découvrez nos délicieuses recettes de desserts</p>
                 </div>
               </div>
@@ -93,8 +93,8 @@ const Home = () => {
                   alt="Featured recipe"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nos grillades</h5>
-                  <p className="card-text">Maîtrisez l'art de la grillade grâce à nos recettes de prédilection
+                  <h5 className="card-title">Nos créations salées</h5>
+                  <p className="card-text">Une petite envie de salées ? Voici nos recettes de prédilection
                   </p>
                 </div>
               </div>
