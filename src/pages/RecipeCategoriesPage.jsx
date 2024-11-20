@@ -26,7 +26,7 @@ const RecipeCategoriesPage = () => {
 
   return (
     <div className="container py-5">
-      <h1 className="text-center mb-5">Nos plats par categories</h1>
+      <h1 className="text-center mb-5">Nos recettes par categories</h1>
       <div className="row">
         {categories.map((category) => (
           <div key={category.idCategory} className="col-md-4 mb-4">

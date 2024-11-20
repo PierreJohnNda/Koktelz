@@ -62,7 +62,14 @@ form {
 }
 
 .btn-primary-1 {
+  color: #131312;
+  
   background-color: #f0ce0d;
+  border-color: #f0ce0d;
+}
+
+.btn-primary-1:hover {
+  background-color: #d6d6d2;
   border-color: #f0ce0d;
 }
 
