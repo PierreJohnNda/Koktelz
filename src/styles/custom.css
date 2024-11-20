@@ -1,6 +1,6 @@
 
 body {
-  padding-top: 76px;
+  padding-top: 80px;
 }
 
 .hero-section {
@@ -40,6 +40,8 @@ footer {
 .card {
   transition: transform 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .card:hover {
@@ -55,14 +57,18 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 20px;
-  column-gap: 10px;
+}
+
+.btn-primary-1 {
+  background-color: #f0ce0d;
+  border-color: #f0ce0d;
 }
 
 .btn-primary {
-  background-color: #f0ce0d;
-  border-color: #f0ce0d;
+  background-color: #131312;
+  border-color: #131312;
 }
 
 .btn-primary:hover {

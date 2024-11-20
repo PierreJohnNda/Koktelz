@@ -16,7 +16,7 @@ const Home = () => {
               <h1 className="display-1 fw-bold">Bienvenue au Koktel'z</h1>
               <p className="lead mb-4">by Kanzaely</p>
               <p className="lead mb-4">Amateurs de grillades en tout genre, cet endroit est le vôtre. Accompagné de nos coktails fait maison et de nos vins, vous vous régalerez 😃. </p>
-              <Link to="/recipes" className="btn btn-primary btn-lg me-3">
+              <Link to="/recipes" className="btn btn-primary-1 btn-lg me-3">
                 Nos plats
               </Link>
               <Link to="/cocktails" className="btn btn-outline-light btn-lg">
@@ -39,9 +39,9 @@ const Home = () => {
                   alt="Featured recipe"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nos grillades</h5>
-                  <p className="card-text">Maîtrisez l'art de la grillade grâce à nos recettes de prédilection
-                  </p>
+                  <h5 className="card-title">Pour les amateurs de boeuf 🥩</h5>
+                  <p className="card-text">Maîtrisez l'art de la grillade grâce à nos recettes de prédilection</p>
+                  <Link to="/recipes?category=Beef" className="btn btn-dark"> Cliquer ici pour voir</Link>
                 </div>
               </div>
             </div>
@@ -53,8 +53,9 @@ const Home = () => {
                   alt="Featured recipe"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nos spécialités fruits de mer</h5>
+                  <h5 className="card-title">Nos spécialités fruits de mer 🍤</h5>
                   <p className="card-text"> Découvrez notre collection de recettes de fruits de mer</p>
+                  <Link to="/recipes?category=Seafood" className="btn btn-dark"> Cliquer ici pour voir</Link>
                 </div>
               </div>
             </div>
@@ -66,8 +67,9 @@ const Home = () => {
                   alt="Featured recipe"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nos créations sucrées</h5>
+                  <h5 className="card-title">Nos créations sucrées 🍫</h5>
                   <p className="card-text">Découvrez nos délicieuses recettes de desserts</p>
+                  <Link to="/recipes?category=Dessert" className="btn btn-dark"> Cliquer ici pour voir</Link>
                 </div>
               </div>
             </div>
@@ -80,8 +82,8 @@ const Home = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title">Pour les amateurs de poulet 🍗</h5>
-                  <p className="card-text">Maîtrisez l'art de la grillade grâce à nos recettes de prédilection
-                  </p>
+                  <p className="card-text">Maîtrisez l'art de la grillade grâce à nos recettes de prédilection</p>
+                  <Link to="/recipes?category=Dessert" className="btn btn-dark"> Cliquer ici pour voir</Link>
                 </div>
               </div>
             </div>
@@ -93,9 +95,9 @@ const Home = () => {
                   alt="Featured recipe"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nos créations salées</h5>
-                  <p className="card-text">Une petite envie de salées ? Voici nos recettes de prédilection
-                  </p>
+                  <h5 className="card-title">Nos créations salées 🧂</h5>
+                  <p className="card-text">Une petite envie de salées ? Voici nos recettes de prédilection</p>
+                  <Link to="/recipes?category=Dessert" className="btn btn-dark"> Cliquer ici pour voir</Link>
                 </div>
               </div>
             </div>
@@ -107,9 +109,9 @@ const Home = () => {
                   alt="Featured recipe"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Nos spécialités étrangères</h5>
-                  <p className="card-text">Laissez vous emporter par d'autrees cultures grâce à nos recettes de cuisine étrangère
-                  </p>
+                  <h5 className="card-title">Nos spécialités étrangères 🌍 </h5>
+                  <p className="card-text">Laissez vous emporter par d'autrees cultures grâce à nos recettes de cuisine étrangère</p>
+                  <Link to="/recipes?category=Dessert" className="btn btn-dark"> Cliquer ici pour voir</Link>
                 </div>
               </div>
             </div>

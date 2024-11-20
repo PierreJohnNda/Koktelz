@@ -32,9 +32,7 @@ const Navbar = () => {
 
         <div className={`collapse navbar-collapse ${isDropdownOpen ? 'show' : ''}`}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
-            </li>
+          
             <li className="nav-item">
               <Link className="nav-link" to="/cocktails">Nos Koktelz</Link>
             </li>
@@ -45,18 +43,17 @@ const Navbar = () => {
               <Link className="nav-link" to="/recipes">Nos plats</Link>
             </li>
           </ul>
-          
           <form className="d-flex" onSubmit={handleSearch}>
             <div className="input-group">
               <input
                 type="search"
                 className="form-control"
-                placeholder="Search recipes..."
+                placeholder="Rechercher un plat"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
               <button className="btn btn-outline-light" type="submit">
-                <Search size={20} />
+                <Search size={10} />
               </button>
             </div>
           </form>

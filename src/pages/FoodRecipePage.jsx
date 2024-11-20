@@ -32,9 +32,7 @@ const RecipePage = () => {
 
   return (
     <div className="container py-5">
-      <h1 className="text-center mb-5">
-        {category ? `${category} Recipes` : 'All Recipes'}
-      </h1>
+      <h1 className="text-center mb-5">Nos plats à base de {category}</h1>
       <div className="row">
         {recipes.map((recipe) => (
           <RecipeCard

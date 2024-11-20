@@ -13,6 +13,7 @@ const RecipeCard = ({ id, title, image, category }) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           {category && <p className="card-text text-muted">{category}</p>}
+          <br></br>
           <Link to={`/recipes/${id}`} className="btn btn-primary">
             Voir la recette
           </Link>

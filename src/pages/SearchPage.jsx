@@ -16,8 +16,9 @@ const SearchPage = () => {
   }, [query]);
 
   return (
-    <div>
-      <h2>Résultat pour: {query}</h2>
+    <div className='container py-5'>
+      <br></br>
+      <h2>Résultat pour : {query}</h2>
       <div className="row">
         {recipes.length > 0 ? (
           recipes.map((recipe) => (
@@ -26,6 +27,7 @@ const SearchPage = () => {
                 <img src={recipe.strMealThumb} className="card-img-top" alt={recipe.strMeal} />
                 <div className="card-body">
                   <h5 className="card-title">{recipe.strMeal}</h5>
+                  <br></br>
                   <Link to={`/recipe/${recipe.idMeal}`} className="btn btn-primary">
                 Voir la recette
                   </Link>
@@ -33,8 +35,12 @@ const SearchPage = () => {
               </div>
             </div>
           ))
+
+
+
         ) : (
-          <p>Rectte non trouvée</p>
+
+          <p>Aucun résultat trouvé</p>
         )}
       </div>
     </div>
